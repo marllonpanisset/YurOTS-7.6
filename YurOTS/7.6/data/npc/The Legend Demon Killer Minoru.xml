@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="The Legend Demon Killer Minoru" script="data/npc/scripts/demonkiller.lua" access="3">
+ 	<look type="129" head="114" body="119" legs="114" feet="114"/>
+</npc>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<monster name="Orshabaal" level="30" maglevel="60" experience="20000" pushable="0" armor="80" defense="90" canpushitems="1" staticattack="40" changetarget="200" speed="240">
+<health now="25000" max="25000"/>
+<look type="35" head="20" body="30" legs="40" feet="50" corpse="4032"/>
+<combat targetdistance="1" runonhealth="0"/>
+
+<attacks>
+	<attack type="melee" mindamage="500" maxdamage="1400" />
+	<attack type="instant" name="exevo gran mas vis" cycleticks="8000" probability="70"/>
+	<attack type="instant" name="orshabaal_deathstar" cycleticks="9000" probability="70"/>
+	<attack type="instant" name="exura" cycleticks="5000" probability="60"/>
+	<attack type="instant" name="orshabaal_exori" cycleticks="7000" probability="70"/>
+	<attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="10000" probability="40"/>
+</attacks>
+
+<defenses>
+	<defense immunity="energy"/>
+	<defense immunity="fire"/>
+	<!-- <defense immunity="poison"/> -->
+	<defense immunity="paralyze"/>
+	<defense immunity="drunk"/>
+</defenses>
+
+<voices>
+	<voice sentence="Orshabaal is back!"/>
+	<voice sentence="Praised by my masters, the Ruthless Seven!"/>
+</voices>
+
+<loot>
+	<item id="2973" countmax="6" chance1="100000" chancemax="0"/>
+	<item id="3219" chance="10000"/>
+	<item id="3352" chance="5000"/>
+	<item id="3258" chance="15387"/>
+	<item id="3304" chance="3333"/>
+
+	<item id="2805" chance="100000">
+	<inside>
+	<item id="3527" countmax="3" chance1="10000" chancemax="0"/>
+	<item id="2972" countmax="4" chance1="40000" chancemax="0"/>
+	<item id="3294" chance="5555"/>
+	<item id="2970" countmax="3" chance1="14287" chancemax="0"/>
+	<item id="2993" chance="13333"/>
+	<item id="3213" chance="66666"/>
+	<item id="3302" chance="4000"/>
+	<item id="3358" chance="6666"/>
+	<item id="3244" chance="8333"/>
+	<item id="3203" chance="33333"/>
+	<item id="3325" chance="2000"/>
+	<item id="3326" chance="2000"/>
+	<item id="3327" chance="2000"/>	<item id="3666" countmax="1" chance1="10000" chancemax="0"/>	</inside>
+	</item>
+</loot>
+
+<summons maxSummons="2">
+ 	<summon name="Demon" chance="5000"/>
+</summons>
+
+</monster>

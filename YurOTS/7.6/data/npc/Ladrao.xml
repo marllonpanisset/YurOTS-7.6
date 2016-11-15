@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<npc name="Deputado Roberto Jeferson" script="data/npc/scripts/npc_ladrao.lua" access="3" lookdir="2">
+<mana now="0" max="0"/>
+<health now="150" max="150"/>
+<look type="134" head="95" body="22" legs="10" feet="95"/>
+</npc>

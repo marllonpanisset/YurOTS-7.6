@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+     <monster name="Efreet" level="80" maglevel="30" experience="300" pushable="0" armor="30" defense="40" canpushitems="1" staticattack="50" changetarget="200" speed="270">
+     	<health now="550" max="550"/>
+     	<look type="103" head="20" body="30" legs="40" feet="50" corpse="4153"/>
+     	<combat targetdistance="1" runonhealth="50"/>
+     <attacks>
+     	<attack type="melee" maxdamage="180"/>
+     
+     </attacks>
+     
+     <defenses>
+     	<defense immunity="energy"/>
+     	<defense immunity="fire"/>
+     	<!-- <defense immunity="poison"/> -->
+     	<defense immunity="paralyze"/>
+     	<defense immunity="drunk"/>
+     </defenses>
+     
+      <loot>
+      	<item id="2969" countmax="60" chance1="100000" chancemax="0"/>
+      	<item id="3522" countmax="4" chance1="6666" chancemax="0"/>
+      	<item id="2852" chance="10000"/>
+     
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="2969" countmax="15" chance1="80000" chancemax="0"/>
+      	<item id="3268" chance="2000"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

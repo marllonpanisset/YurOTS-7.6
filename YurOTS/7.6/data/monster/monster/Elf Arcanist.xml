@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+  <monster name="Elf Arcanist" level="20" maglevel="30" experience="175" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="220">
+     	<health now="220" max="220"/>
+     	<look type="63" head="20" body="30" legs="40" feet="50" corpse="4095"/>
+     	<combat targetdistance="2" runonhealth="50"/>
+
+  <attacks>
+     	<attack type="distance" name="arrow" mindamage="10" maxdamage="120"/>
+     	<attack type="rune" name="heavy magic missile" exhaustion="500" cycleticks="5000" probability="70"/>
+     	<attack type="rune" name="sudden death" exhaustion="500" cycleticks="8000" probability="85"/>
+  </attacks>
+
+  <defenses>
+     	<defense immunity="energy"/>
+     	<defense immunity="fire"/>
+     	<!-- <defense immunity="poison"/> -->
+  </defenses>
+
+  <loot>
+     	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+     	<item id="2753" chance="10000"/>
+     	<item id="3419" chance="5000"/>
+     	<item id="3085" chance="4000"/>
+     	<item id="3227" chance="3000"/>
+     	<item id="3489" chance="20000"/>
+     	<item id="3531" chance="6666"/>
+     	<item id="3673" countmax="1" chance1="10000" chancemax="0"/>
+     	<item id="3447" chance="33333"/>
+     	<item id="2999" chance="2857"/>
+     	<item id="3538" countmax="3" chance1="20000" chancemax="0"/>
+
+     	<item id="2791" chance="100000">
+     	<inside>
+     	<item id="3501" chance="5000"/>
+     	<item id="3385" countmax="10" chance1="20000" chancemax="0"/>
+     	<item id="3288" chance="10000"/>
+     	<item id="2840" chance="4000"/>
+     	<item id="2870" chance="2857"/>
+     	<item id="2946" chance="1818"/>
+     	<item id="2975" chance="1333"/>
+     	</inside>
+     	</item>
+  </loot>
+  </monster>

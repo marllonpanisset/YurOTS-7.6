@@ -1,0 +1,170 @@
+function onUse(cid, item, frompos, item2, topos)
+
+
+  	-- demon helmet quest
+  	if item.uid == 5001 then
+  		queststatus = getPlayerStorageValue(cid,5001)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 100 then
+  				doPlayerSendTextMessage(cid,22,"You have found Demon Helmet.")
+  				doPlayerAddItem(cid,2493,1)
+  				setPlayerStorageValue(cid,5001,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 100 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- dh quest
+  	elseif item.uid == 5002 then
+  		queststatus = getPlayerStorageValue(cid,5002)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 100 then
+  				doPlayerSendTextMessage(cid,22,"You have found Demon Shield.")
+  				doPlayerAddItem(cid,2520,1)
+  				setPlayerStorageValue(cid,5002,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 100 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- dh quest
+  	elseif item.uid == 5003 then
+  		queststatus = getPlayerStorageValue(cid,5003)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 100 then
+  				doPlayerSendTextMessage(cid,22,"You have found Steel Boots.")
+  				doPlayerAddItem(cid,2545,1)
+  				setPlayerStorageValue(cid,5003,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 100 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5004 then
+  		queststatus = getPlayerStorageValue(cid,5004)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 100 then
+  				doPlayerSendTextMessage(cid,22,"You have found Demon Armor.")
+  				doPlayerAddItem(cid,2494,1)
+  				setPlayerStorageValue(cid,5004,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 100 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5005 then
+  		queststatus = getPlayerStorageValue(cid,5005)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 100 then
+  				doPlayerSendTextMessage(cid,22,"You have found Magic Sword.")
+  				doPlayerAddItem(cid,2400,1)
+  				setPlayerStorageValue(cid,5005,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 100 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5006 then
+  		queststatus = getPlayerStorageValue(cid,5006)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 100 then
+  				doPlayerSendTextMessage(cid,22,"You have found Stone Cutter Axe.")
+  				doPlayerAddItem(cid,2431,1)
+  				setPlayerStorageValue(cid,5006,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 100 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5007 then
+  		queststatus = getPlayerStorageValue(cid,5007)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 100 then
+  				doPlayerSendTextMessage(cid,22,"You have found Thunder Hammer.")
+  				doPlayerAddItem(cid,2421,1)
+  				setPlayerStorageValue(cid,5007,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 100 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5008 then
+  		queststatus = getPlayerStorageValue(cid,5008)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 80 then
+  				doPlayerSendTextMessage(cid,22,"You have found Golden Armor.")
+  				doPlayerAddItem(cid,2466,1)
+  				setPlayerStorageValue(cid,5008,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 80 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5009 then
+  		queststatus = getPlayerStorageValue(cid,5009)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 80 then
+  				doPlayerSendTextMessage(cid,22,"You have found Demon Shield.")
+  				doPlayerAddItem(cid,2520,1)
+  				setPlayerStorageValue(cid,5009,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 80 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5010 then
+  		queststatus = getPlayerStorageValue(cid,5010)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 80 then
+  				doPlayerSendTextMessage(cid,22,"You have found Guardian Halberd.")
+  				doPlayerAddItem(cid,2427,1)
+  				setPlayerStorageValue(cid,5010,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 80 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+
+  	-- ani quest
+  	elseif item.uid == 5011 then
+  		queststatus = getPlayerStorageValue(cid,5011)
+  		if queststatus == -1 then
+  			if getPlayerLevel(cid) >= 80 then
+  				doPlayerSendTextMessage(cid,22,"You have found Platinum Amulet.")
+  				doPlayerAddItem(cid,2171,1)
+  				setPlayerStorageValue(cid,5011,1)
+  			else
+  				doPlayerSendTextMessage(cid,22,"You need level 80 to get prize.")
+  			end
+  		else
+  			doPlayerSendTextMessage(cid,22,"It is empty.")
+  		end
+  	end
+  	return 1
+  end

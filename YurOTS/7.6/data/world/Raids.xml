@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<raids>
+<raid name="Raid" message="Heavy undead activity in the city! We need backup!" brodcaster="GM Trevor">
+<area monster="Skeleton" count="30" posxfrom="160" posyfrom="2146" poszfrom="7" posxto="232" posyto="2197" poszto="7" />
+<area monster="Ghoul" count="20" posxfrom="160" posyfrom="2146" poszfrom="7" posxto="232" posyto="2197" poszto="7" />
+<area monster="Mummy" count="10" posxfrom="160" posyfrom="2146" poszfrom="7" posxto="232" posyto="2197" poszto="7" />
+<area monster="Necromancer" count="3" posxfrom="160" posyfrom="2146" poszfrom="7" posxto="232" posyto="2197" poszto="7" />
+<area monster="Beholder" count="7" posxfrom="160" posyfrom="2146" poszfrom="7" posxto="232" posyto="2197" poszto="7" />
+<area monster="Vampire" count="3" posxfrom="160" posyfrom="2146" poszfrom="7" posxto="232" posyto="2197" poszto="7" />
+<area monster="Demon Skeleton" count="8" posxfrom="160" posyfrom="2146" poszfrom="7" posxto="232" posyto="2197" poszto="7" />
+<monster name="Elder beholder" x="199" y="2155" z="7" />
+</raid>
+</raids>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+  <monster name="Green Djinn" level="50" maglevel="30" experience="190" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="220">
+     	<health now="330" max="330"/>
+     	<look type="51" head="20" body="30" legs="40" feet="50" corpse="4105"/>
+     	<combat targetdistance="1" runonhealth="50"/>
+  <attacks>
+     	<attack type="melee" maxdamage="160"/>
+  </attacks>
+
+  <defenses>
+     	<defense immunity="energy"/>
+     	<defense immunity="fire"/>
+     	<!-- <defense immunity="poison"/> -->
+     	<defense immunity="paralyze"/>
+     	<defense immunity="drunk"/>
+  </defenses>
+
+  <loot>
+     	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+     	<item id="3545" chance="10000"/>
+     	<item id="3596" chance="10000"/>
+
+     	<item id="2791" chance="100000">
+     	<inside>
+     	<item id="2870" chance="5000"/>
+     	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+     	<item id="2998" chance="2000"/>
+     	</inside>
+     	</item>
+  </loot>
+  </monster>

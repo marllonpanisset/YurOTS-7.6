@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+     <monster name="Orc Rider" level="70" maglevel="30" experience="110" pushable="0" armor="45" defense="35" canpushitems="1" staticattack="50" changetarget="200" speed="340">
+     	<health now="180" max="180"/>
+     	<look type="4" head="20" body="30" legs="40" feet="50" corpse="4088"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+     <attacks>
+     	<attack type="melee" maxdamage="80"/>
+     	<attack type="spear" name="bolt" mindamage="50" maxdamage="170"/>
+
+     </attacks>
+
+     <defenses>
+
+     </defenses>
+
+     <loot>
+      	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+      	<item id="3515" countmax="3" chance1="50000" chancemax="0"/>
+      	<item id="2950" chance="10000"/>
+
+      	<item id="2792" chance="20000">
+      	<inside>
+      	<item id="2969" countmax="1" chance1="20000" chancemax="0"/>
+      	</inside>
+      	</item>
+
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3254" chance="2500"/>
+     	<item id="0" countmax="2" chance1="20000" chancemax="0"/>
+      	<item id="3312" chance="10000"/>
+      	<item id="3251" chance="2000"/>
+      	<item id="3351" chance="6666"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

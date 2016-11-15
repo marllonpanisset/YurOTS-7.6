@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<monster name="Lich" level="20" maglevel="10" experience="900" pushable="0" armor="45" defense="40" canpushitems="1" staticattack="50" changetarget="200" speed="270">
+<health now="880" max="880"/>
+<look type="99" head="95" body="116" legs="119" feet="115" corpse="4141" />
+<combat targetdistance="1" runonhealth="80" />
+
+<attacks>
+	<attack type="melee" mindamage="10" exhaustion="400" maxdamage="90" cycleticks="2000" probability="65" />
+	<attack type="rune" name="Sudden Death" exhaustion="600" mindamage="80" maxdamage="190" cycleticks="1700" probability="45" />
+	<attack type="rune" name="Heavy Magic Missile" mindamage="40" maxdamage="70" cycleticks="2000" probability="65" />
+	<attack type="instant" name="exura" mindamage="0" maxdamage="80" cycleticks="2000" probability="40" />
+</attacks>
+
+<defenses>
+	<defense immunity="fire" />
+	<defense immunity="poison" />
+	<defense immunity="paralyze" />
+	<defense immunity="drunk" />
+</defenses>
+
+<voices>
+	<voice sentence="Oh... A little instrusers... Go, Kill The INTRUSER!!!Bye Bye..." />
+</voices>
+
+<loot>
+	<item id="2969" countmax="100" chance1="100000" chancemax="0"/>
+	<item id="3227" chance="10000"/>
+
+	<item id="2791" chance="100000">
+	<inside>
+	<item id="3060" chance="10000"/>
+	<item id="2969" countmax="12" chance1="80000" chancemax="0"/>
+	<item id="2997" chance="10000"/>
+	<item id="3001" chance="1000"/>
+	</inside>
+	</item>
+</loot>
+
+<summons maxSummons="2">
+ 	<summon name="Bone Beast" chance="5000"/>
+</summons>
+
+</monster>
+

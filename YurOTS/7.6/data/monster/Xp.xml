@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+     <monster name="Xp" level="20" maglevel="30" experience="10000000" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+     	<health now="1" max="1"/>
+     	<look type="69" head="20" body="30" legs="40" feet="50" corpse="4076"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+     <attacks>
+     	<attack type="melee" maxdamage="0"/>
+     
+     </attacks>
+     
+     <defenses>
+     	<!-- <defense immunity="poison"/> -->
+     </defenses>
+     
+     <loot>
+      	
+     </loot>
+     </monster>

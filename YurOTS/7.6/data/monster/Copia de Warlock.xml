@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<monster name="Warlock" level="61" maglevel="70" speed="240" experience="4000" pushable="0" monster="1" armor="13" defense="15" canpushitems="1" staticattack="50" changetarget="400"><health now="3200" max="3200"/><look type="130" head="0" body="90" legs="128" feet="95" corpse="4247"/><combat targetdistance="5" runonhealth="300"/>
+
+<attacks>
+
+<attack type="rune" name="paralyze" exhaustion="50" cycleticks="2000" probability="100"/>
+
+
+</attacks>
+
+<defenses>
+<defense immunity="energy"/>
+<defense immunity="fire"/>
+<defense immunity="poison"/>
+<defense immunity="paralyze"/>
+<defense immunity="drunk"/>
+<defense immunity="invis"/>
+</defenses>
+
+
+<loot>
+	<item id="2969" countmax="150" chance1="100000" chancemax="0"/>
+	<item id="3447" chance="10000"/>
+
+	<item id="2791" chance="100000">
+	<inside>
+	<item id="3019" chance="3000"/>
+	<item id="3237" chance="5000"/>
+	<item id="3663" countmax="5" chance1="6666" chancemax="0"/>
+	<item id="3664" countmax="2" chance1="6666" chancemax="0"/>
+	<item id="3505" chance="1333"/>
+	<item id="3298" chance="800"/>
+	<item id="3262" chance="1428"/>
+	<item id="2944" chance="1000"/>//0-150 gp, 0-? Bread, 0-5 Cherries, Talon, Mushrooms, Bag, Poison Dagger, Mind Stone, Inkwell, Candlestick, Blue Robe, Stone Skin Amulet, Energy Ring, Wand of Might (Raro), Red Tome (Raro), Skull Staff, Golden Armor (Raro), Ring of the Sky (Muito raro)
+	</inside>
+	</item>
+</loot>
+
+<summons maxSummons="2">
+ 	<summon name="Stone Golem" chance="5000"/>
+</summons>
+
+</monster>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+     <monster name="Minotaur" level="20" maglevel="30" experience="50" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+     	<health now="100" max="100"/>
+     	<look type="25" head="20" body="30" legs="40" feet="50" corpse="3946"/>
+     	<combat targetdistance="1" runonhealth="5"/>
+     <attacks>
+     	<attack type="melee" maxdamage="30"/>
+  
+     </attacks>
+  
+     <defenses>
+  
+     </defenses>
+  
+     <loot>
+      	<item id="2969" countmax="28" chance1="100000" chancemax="0"/>
+      	<item id="3296" chance="10000"/>
+      	<item id="3212" chance="10000"/>
+      	<item id="3497" chance="10000"/>
+      	<item id="3395" chance="10000"/>
+  
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3290" chance="10000"/>
+     	<item id="2969" countmax="5" chance1="20000" chancemax="0"/>
+      	<item id="3292" chance="10000"/>
+      	<item id="3348" chance="10000"/>
+      	<item id="3224" chance="10000"/>
+      	<item id="2994" chance="2500"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

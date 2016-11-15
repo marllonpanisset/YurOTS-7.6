@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<monster name="Hydra" level="20" maglevel="20" experience="2100" pushable="0" speed="260" monster="1" armor="38" defense="35" canpushitems="0" staticattack="50" changetarget="200">
+<health now="2250" max="2250"/>
+<look type="121" corpse="4283"/>
+<combat targetdistance="1" runonhealth="0"/>
+
+<attacks>
+  	<attack type="melee" maxdamage="190"/>
+  	<attack type="instant" name="hydra_poison" exhaustion="500" cycleticks="5500" probability="85"/>
+  	<attack type="instant" name="hydra_water" exhaustion="500" cycleticks="5500" probability="65"/>
+  	<attack type="instant" name="exura gran" exhaustion="500" cycleticks="3000" probability="65"/>
+</attacks>
+
+<defenses>
+  	<!-- <defense immunity="poison"/> -->
+  	<defense immunity="paralyze"/>
+  	<defense immunity="drunk"/>
+</defenses>
+
+<loot>
+   	<item id="2969" countmax="250" chance1="100000" chancemax="0"/>
+   	<item id="3515" countmax="4" chance1="20000" chancemax="0"/>
+   	<item id="3520" countmax="4" chance1="20000" chancemax="0"/>
+
+   	<item id="2791" chance="100000">
+   	<inside>
+   	<item id="3330" chance="600"/>
+	<item id="3307" chance="800"/>
+	<item id="3374" chance="700"/>
+	<item id="3017" chance="900"/>
+	<item id="3036" chance="1818"/>
+	<item id="2967" countmax="1" chance1="2000" chancemax="0"/>
+	<item id="3308" chance="1200"/>
+   	</inside>
+   	</item>
+</loot>
+
+<voices>
+  	<voice sentence="FCHHHHH" cycleticks="10000" probability="40"/>
+	<voice sentence="HISSSS" cycleticks="10000" probability="40"/>
+</voices>
+
+</monster>

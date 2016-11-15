@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<monster name="Ozaminha Junior" level="85" maglevel="50" experience="12000" pushable="0" armor="0" defense="0" canpushitems="1" staticattack="50" changetarget="400" speed="450">
+<health now="80000" max="80000"/>
+<look type="134" head="24" body="76" legs="133" feet="131" corpse="4246"/>
+<combat targetdistance="1" runonhealth="0"/>
+
+<attacks>
+	<attack type="melee" maxdamage="100"/>
+	<attack type="rune" name="Sudden death" exhaustion="500" cycleticks="4000" probability="90"/>
+	<attack type="rune" name="Heavy magic missile" exhaustion="500" cycleticks="3000" probability="85"/>
+	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="4000" probability="85"/>
+	<attack type="instant" name="exevo gran mas vis" exhaustion="500" cycleticks="3000" probability="10"/>
+	<attack type="instant" name="exevo gran mas pox" exhaustion="500" cycleticks="3000" probability="7"/>
+	<attack type="instant" name="exevo gran mas puff" exhaustion="500" cycleticks="3000" probability="6"/>
+	<attack type="instant" name="exevo gran mas mort" exhaustion="500" cycleticks="3000" probability="5"/>
+	<attack type="instant" name="raps galla" exhaustion="500" cycleticks="3000" probability="10"/>
+	<attack type="instant" name="exevo gran mas song" exhaustion="500" cycleticks="3000" probability="4"/>
+	<attack type="instant" name="exevo gran mas rock" exhaustion="500" cycleticks="3000" probability="8"/>
+	<attack type="instant" name="exevo pox hur" exhaustion="500" cycleticks="3000" probability="5"/>
+	<attack type="instant" name="exevo hydrawlyc hur" exhaustion="500" cycleticks="3000" probability="16"/>
+	<attack type="instant" name="exevo hydrawlyc pox" exhaustion="500" cycleticks="3000" probability="19"/>
+	<attack type="instant" name="exevo mas xori" exhaustion="500" cycleticks="3000" probability="10"/>
+</attacks>
+
+<defenses>
+	<defense immunity="energy"/>
+	<defense immunity="fire"/>
+	<!-- <defense immunity="poison"/> -->
+	<defense immunity="paralyze"/>
+	<defense immunity="drunk"/>
+</defenses>
+
+<loot>
+	<item id="3447" chance="100"/>
+	<item id="3219" chance="300" />
+  	<item id="3233" chance="200" /> 
+  	<item id="3216" chance="60" /> 
+  	<item id="3269" chance="110" /> 
+  	<item id="3270" chance="190" /> 
+  	<item id="3270" chance="501" /> 
+  	<item id="3273" chance="101" /> 
+  	<item id="3302" chance="100" /> 
+  	<item id="3303" chance="195" /> 
+
+	<item id="2791" chance="100000">
+	<inside>
+	<item id="3019" chance="100"/>
+	<item id="3505" chance="100"/>
+	<item id="3298" chance="100"/>
+	<item id="2944" chance="100"/>
+	<item id="3492" chance="100" /> 
+  	<item id="3377" chance="190" /> 
+  	<item id="3301" chance="199" /> 
+  	<item id="3304" chance="150" /> 
+  	<item id="3319" chance="150" /> 
+
+	</inside>
+	</item>
+</loot>
+
+<summons maxSummons="1">
+</summons>
+
+</monster>

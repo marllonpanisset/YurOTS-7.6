@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+     <monster name="Hunter" level="20" maglevel="30" experience="150" pushable="0" armor="25" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="210">
+     	<health now="150" max="150"/>
+     	<look type="129" head="95" body="116" legs="121" feet="115" corpse="4246"/>
+     	<combat targetdistance="4" runonhealth="0"/>
+     <attacks>
+     	<attack type="distance" name="arrow" mindamage="10" maxdamage="170" cycleticks="2000" probability="100"/>
+     
+     </attacks>
+     
+     <defenses>
+     	<!-- <defense immunity="poison"/> -->
+     </defenses>
+     
+     <loot>
+      	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+      	<item id="3297" chance="10000"/>
+      	<item id="3293" chance="10000"/>
+      	<item id="3497" chance="10000"/>
+      	<item id="3520" countmax="2" chance1="20000" chancemax="0"/>
+     
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3288" chance="6666"/>
+     	<item id="3385" countmax="15" chance1="10000" chancemax="0"/>
+     	<item id="3387" countmax="5" chance1="10000" chancemax="0"/>
+     	<item id="2968" countmax="2" chance1="3333" chancemax="0"/>
+     	<item id="3524" countmax="4" chance1="6666" chancemax="0"/>
+     	<item id="3539" countmax="4" chance1="6666" chancemax="0"/>
+      	<item id="2858" chance="20000"/>
+      	<item id="3310" chance="3333"/>
+      	<item id="3501" chance="2222"/>
+     	<item id="3023" chance="2500"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

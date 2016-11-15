@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+     <monster name="Marid" level="70" maglevel="60" experience="300" pushable="0" armor="35" defense="28" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+     	<health now="550" max="550"/>
+     	<look type="104" head="20" body="30" legs="40" feet="50" corpse="4156"/>
+     	<combat targetdistance="1" runonhealth="50"/>
+     <attacks>
+     	<attack type="melee" maxdamage="150"/>
+     	<attack type="distance" name="throwingknife" mindamage="40" maxdamage="120" cycleticks="2000" probability="100"/>
+     	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="8000" probability="70"/>
+     	<attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="5000" probability="70"/>
+     </attacks>
+     
+     <defenses>
+     	<defense immunity="energy"/>
+     	<defense immunity="fire"/>
+     	<!-- <defense immunity="poison"/> -->
+     	<defense immunity="paralyze"/>
+     	<defense immunity="drunk"/>
+     </defenses>
+     
+     <loot>
+      	<item id="2969" countmax="50" chance1="100000" chancemax="0"/>
+      	<item id="3268" chance="5000"/>
+     
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="2969" countmax="14" chance1="100000" chancemax="0"/>
+      	<item id="2871" chance="3333"/>
+     	<item id="3526" countmax="4" chance1="20000" chancemax="0"/>
+      	<item id="2999" chance="10000"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

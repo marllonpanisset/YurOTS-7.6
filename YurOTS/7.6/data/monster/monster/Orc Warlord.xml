@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+     <monster name="Orc Warlord" level="70" maglevel="30" experience="670" pushable="0" armor="45" defense="40" canpushitems="1" staticattack="50" changetarget="200" speed="240">
+     	<health now="950" max="950"/>
+     	<look type="2" head="20" body="30" legs="40" feet="50" corpse="4083"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+     <attacks>
+     	<attack type="melee" mindamage="40" maxdamage="180"/>
+     	<attack type="distance" name="throwingknife" mindamage="40" maxdamage="90" cycleticks="4000" probability="100"/>
+
+     </attacks>
+
+     <defenses>
+
+     	<!-- <defense immunity="poison"/> -->
+
+     </defenses>
+
+     <loot>
+      	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+      	<item id="3515" countmax="3" chance1="60000" chancemax="0"/>
+      	<item id="3245" chance="5000"/>
+
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3516" countmax="1" chance1="50000" chancemax="0"/>
+      	<item id="3495" chance="2000"/>
+     	<item id="3225" countmax="1" chance1="6666" chancemax="0"/>
+      	<item id="3254" chance="1818"/>
+      	<item id="3310" chance="2857"/>
+      	<item id="3295" chance="1666"/>
+      	<item id="2987" chance="1333"/>
+      	<item id="3329" chance="666"/>
+      	<item id="3001" chance="833"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

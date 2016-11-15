@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+     <monster name="Morguthis" level="78" maglevel="34" experience="3000" pushable="0" armor="40" defense="30" canpushitems="1" staticattack="50" changetarget="200" speed="270">
+     	<health now="6000" max="6000"/>
+     	<look type="85" head="20" body="30" legs="40" feet="50" corpse="4132"/>
+     	<combat targetdistance="1" runonhealth="100"/>
+   <attacks>
+   	<attack type="melee" maxdamage="290"/>
+   	<attack type="distance" name="bolt" mindamage="110" maxdamage="160"/>
+   	<attack type="distance" name="throwingstar" mindamage="10" maxdamage="100" cycleticks="2000" probability="100"/>
+   	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="8000" probability="70"/>
+   	<attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="5000" probability="70"/>
+   </attacks>
+  
+     <defenses>
+     	<defense immunity="energy"/>
+     	<defense immunity="fire"/>
+     	<!-- <defense immunity="poison"/> -->
+     	<defense immunity="paralyze"/>
+     	<defense immunity="drunk"/>
+     </defenses>
+  
+     <voices>
+     	<voice sentence="MY TRESURE! DON'T TAKE IT!!"/>
+     	<voice sentence="HOOOOOOHHHSSSS!"/>
+     </voices>
+  
+     <loot>
+      	<item id="2969" countmax="100" chance1="100000" chancemax="0"/>
+      	<item id="2998" chance="2000"/>
+      	<item id="2969" countmax="100" chance1="100000" chancemax="0"/>
+  
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="2969" countmax="70" chance1="100000" chancemax="0"/>
+      	<item id="3391" chance="10000"/>
+     	<item id="3537" countmax="5" chance1="4000" chancemax="0"/>
+      	<item id="3378" chance="1333"/>
+      	<item id="3377" chance="500"/>
+      	<item id="3371" chance="1428"/>
+      	<item id="3318" chance="1000"/>
+      	<item id="3507" chance="800"/>
+      	<item id="3011" chance="800"/>
+     	<item id="2968" countmax="2" chance1="4000" chancemax="0"/>
+     	<item id="3527" countmax="4" chance1="4000" chancemax="0"/>
+      	<item id="2969" countmax="100" chance1="100000" chancemax="0"/>
+     	<item id="3539" countmax="4" chance1="4000" chancemax="0"/>
+  
+      	<item id="2807" chance="2857">
+      	<inside>
+      	<item id="2969" countmax="1" chance1="2857" chancemax="0"/>
+      	</inside>
+      	</item>
+  
+  
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

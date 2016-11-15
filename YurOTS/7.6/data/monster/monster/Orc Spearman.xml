@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+     <monster name="Orc Spearman" level="20" maglevel="30" experience="38" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="176">
+     	<health now="105" max="105"/>
+     	<look type="50" head="20" body="30" legs="40" feet="50" corpse="4036"/>
+     	<combat targetdistance="3" runonhealth="0"/>
+     <attacks>
+     	<attack type="distance" name="spear" mindamage="1" maxdamage="35"/>
+     </attacks>
+
+     <defenses>
+
+     </defenses>
+
+     <loot>
+      	<item id="2969" countmax="10" chance1="80000" chancemax="0"/>
+      	<item id="3515" countmax="2" chance1="80000" chancemax="0"/>
+      	<item id="3300" chance="10000"/>
+      	<item id="3043" chance="10000"/>
+
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3246" chance="10000"/>
+     	<item id="3215" countmax="1" chance1="6666" chancemax="0"/>
+      	<item id="0" chance="10000"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

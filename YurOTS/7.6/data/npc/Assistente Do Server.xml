@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Assistente Do Server" script="data/npc/scripts/cartoon.lua" access="3" lookdir="1">
+	<health now="1000" max="1000"/>
+	<look type="75" head="0" body="95" legs="0" feet="95" corpse="3128"/>
+</npc>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Dragon Dark" script="data/npc/scripts/dd.lua" access="3" lookdir="2">
+	<mana now="500" max="500"/>
+	<health now="500" max="500"/>
+	<look type="39" head="0" body="0" legs="0" feet="0"/>
+</npc>

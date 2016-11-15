@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+  <monster name="Beholder" level="20" maglevel="30" experience="170" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="150">
+     	<health now="260" max="260"/>
+     	<look type="17" head="20" body="30" legs="40" feet="50" corpse="4024"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+ 
+  <attacks>
+     	<attack type="melee" maxdamage="90"/>
+  	<attack type="rune" name="heavy magic missile" exhaustion="500" cycleticks="3000" probability="90"/>
+  </attacks>
+ 
+  <defenses>
+     	<!-- <defense immunity="poison"/> -->
+     	<defense immunity="paralyze"/>
+  </defenses>
+ 
+  <voices>
+     	<voice sentence="'Let me take a look at you!', 'I've got to look!"/>
+  </voices>
+ 
+  <loot>
+     	<item id="2969" countmax="52" chance1="100000" chancemax="0"/>
+     	<item id="2997" chance="4000"/>
+     	<item id="3347" chance="3333"/>
+     	<item id="3203" chance="2000"/>
+ 
+     	<item id="2791" chance="90000">
+     	<inside>
+     	<item id="3220" chance="5000"/>
+     	<item id="2969" countmax="12" chance1="100000" chancemax="0"/>
+     	<item id="3356" chance="1000"/>
+     	<item id="3223" chance="6666"/>
+     	</inside>
+     	</item>
+  </loot>
+ 
+ <summons maxSummons="4">
+ 	<summon name="Skeleton" chance="5000"/>
+ </summons>
+ 
+  </monster>

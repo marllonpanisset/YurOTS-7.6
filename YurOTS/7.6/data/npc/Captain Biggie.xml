@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<npc name="Captain Biggie" script="data/npc/scripts/boatguy.lua" access="3" pushable="0" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+	<look type="134" head="38" body="77" legs="99" feet="0" corpse="2276"/>
+	<attack type="melee" damage="10"/>       
+</npc>

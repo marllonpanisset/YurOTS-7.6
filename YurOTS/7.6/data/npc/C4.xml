@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Coelho Amora" script="data/npc/scripts/coelho4.lua" access="3">
+ 	<look type="74" head="20" body="30" legs="40" feet="50" corpse="3119"/>
+</npc>

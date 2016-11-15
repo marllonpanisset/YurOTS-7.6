@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<monster name="Osiris" level="120" maglevel="80" experience="30000" speed="650" pushable="0" armor="40" defense="30" canpushitems="1" staticattack="50" changetarget="2200">
+	<health now="42000" max="42000"/>
+	<look type="130" head="19" body="71" legs="128" feet="128" corpse="4175"/>
+	<combat targetdistance="5" runonhealth="0"/>
+<attacks>
+	<attack type="melee" maxdamage="300" cycleticks="2000" probability="100"/>
+	<attack type="rune" name="burst" exhaustion="500" cycleticks="1500" probability="100"/>
+	<attack type="rune" name="explosion" exhaustion="500" cycleticks="1500" probability="100"/>
+        <attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="4000" probability="80"/>
+        <attack type="instant" name="exura vita" exhaustion="500" cycleticks="5500" probability="40"/>
+	<attack type="instant" name="exura vita" exhaustion="500" cycleticks="5500" probability="60"/>
+	<attack type="instant" name="exura gran" exhaustion="500" cycleticks="5500" probability="50"/>
+	<attack type="rune" name="sudden death" exhaustion="600" cycleticks="1500" probability="100"/>
+	<attack type="rune" name="poisen explosion" exhaustion="1700" cycleticks="1500" probability="9"/>
+	<attack type="rune" name="uexplosion" exhaustion="1800" cycleticks="1500" probability="6"/>
+	<attack type="rune" name="giant fireball" exhaustion="900" cycleticks="1500" probability="50"/>
+	<attack type="rune" name="great fireball" exhaustion="700" cycleticks="1500" probability="70"/>
+	<attack type="rune" name="great fireballx" exhaustion="600" cycleticks="1500" probability="40"/>
+	<attack type="rune" name="heavy magic missile" exhaustion="200" cycleticks="1500" probability="80"/>
+        <attack type="instant" name="exevo vis lux" exhaustion="500" cycleticks="4000" probability="60"/>
+        <attack type="instant" name="exevo gran mas vis" exhaustion="900" cycleticks="4000" probability="18"/>
+        <attack type="instant" name="exevo gran mas mort" exhaustion="900" cycleticks="4000" probability="8"/>9
+        <attack type="instant" name="exevo gran mas song" exhaustion="900" cycleticks="4000" probability="10"/>
+        <attack type="instant" name="exevo pox hur" exhaustion="900" cycleticks="4000" probability="6"/>
+        <attack type="instant" name="raps galla" exhaustion="500" cycleticks="4000" probability="40"/>
+
+</attacks>
+
+<defenses>
+	<defense immunity="energy"/>
+	<defense immunity="fire"/>
+	<defense immunity="poison"/>
+	<defense immunity="paralyze"/>
+	<defense immunity="drunk"/>
+</defenses>
+
+<loot>
+ 	<item id="2969" countmax="100" chance1="100000" chancemax="0"/>
+ 	<item id="3447" chance="10000"/>
+ 	<item id="3279" chance="100"/>
+ 	<item id="3258" chance="7200"/>
+ 	<item id="3234" chance="380"/>
+ 	<item id="3216" chance="420"/>
+ 	<item id="3168" chance="290"/>
+ 	<item id="3338" chance="80"/>
+ 	<item id="3304" chance="1001"/>
+ 	<item id="3487" chance="111"/>
+
+ 	<item id="2800" chance="100000">
+ 	<inside>
+ 	<item id="2969" countmax="50" chance1="80000" chancemax="0"/>
+	<item id="3663" countmax="50" chance1="6666" chancemax="1110"/>
+	<item id="3664" countmax="20" chance1="6666" chancemax="1110"/>
+ 	<item id="3505" chance="5333"/>
+ 	<item id="3298" chance="3800"/>
+ 	<item id="3262" chance="8428"/>
+ 	<item id="2944" chance="7200"/>
+ 	<item id="3247" chance="400"/>
+ 	<item id="2995" chance="790"/>
+ 	<item id="2954" chance="120"/>
+ 	<item id="3177" chance="44"/>
+ 	</inside>
+ 	</item>
+</loot>
+<voices>
+<voice sentence="Just wait for my summons!" cycleticks="5000" probability="55"/>
+<voice sentence="My lord will bring me power!" cycleticks="5000" probability="45"/>
+</voices>
+<summoning>
+<summon name="Demodras" exhaustion="3300" cycleticks="3000" probability="10"/>
+</summoning>
+</monster>

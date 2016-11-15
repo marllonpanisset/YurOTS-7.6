@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<monster name="Flamingo" level="20" maglevel="10" experience="0" pushable="0" speed="160" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+<health now="25" max="25"/>
+<look type="212" corpse="4301"/>
+<combat targetdistance="2" runonhealth="299"/>
+
+<attacks>
+	<attack type="melee" maxdamage="0"/>
+</attacks>
+
+<defenses>
+	<!-- <defense immunity="poison"/> -->
+	<defense immunity="paralyze"/>
+	<defense immunity="drunk"/>
+</defenses>
+
+<loot/>
+
+<voices>
+	<voice sentence="bop bop" cycleticks="10000" probability="40"/>
+</voices>
+
+</monster>

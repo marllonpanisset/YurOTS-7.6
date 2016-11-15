@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<npc name="King Iberion" script="data/npc/scripts/kingiberion.lua" access="3" monster="1" speed="50" level="100" maglevel="100" exp="0" pushable="0" lookdir="0">
+	<mana now="100" max="100"/>
+	<health now="100" max="100"/>
+	<look type="130" head="38" body="90" legs="76" feet="0" corpse="2276"/>
+	<attack type="melee" damage="10"/>       
+</npc>

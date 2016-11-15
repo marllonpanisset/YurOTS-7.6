@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Marisa" script="data/npc/scripts/parcel.lua" access="3">
+ 	<look type="128" head="24" body="77" legs="10" feet="20"/>
+</npc>

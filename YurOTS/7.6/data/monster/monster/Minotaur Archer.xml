@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+     <monster name="Minotaur Archer" level="20" maglevel="30" experience="65" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+     	<health now="100" max="100"/>
+     	<look type="24" head="20" body="30" legs="40" feet="50" corpse="3987"/>
+     	<combat targetdistance="3" runonhealth="0"/>
+     <attacks>
+     	<attack type="distance" name="bolt" mindamage="10" maxdamage="100"/>
+     </attacks>
+
+     <defenses>
+
+     </defenses>
+
+     <loot>
+      	<item id="2969" countmax="28" chance1="100000" chancemax="0"/>
+      	<item id="3384" countmax="18" chance1="70000" chancemax="0"/>
+      	<item id="3515" countmax="3" chance1="50000" chancemax="0"/>
+      	<item id="3315" chance="10000"/>
+      	<item id="3313" chance="6666"/>
+
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3287" chance="6666"/>
+     	<item id="0" countmax="2" chance1="20000" chancemax="0"/>
+      	<item id="3297" chance="5000"/>
+      	<item id="3296" chance="10000"/>
+      	<item id="3496" chance="4000"/>
+      	<item id="3290" chance="10000"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

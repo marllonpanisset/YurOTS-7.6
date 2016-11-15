@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<monster name="Demondras" level="50" maglevel="36" experience="30500"
+cansummon="1" maxsummon="2" speed="300" pushable="0" armor="42" defense="48" canpushitems="1" staticattack="50" changetarget="325">
+	<health now="4900" max="4900"/>
+	<look type="39" head="20" body="30" legs="40" feet="50" corpse="3997"/>
+	<combat targetdistance="1" runonhealth="350"/>
+<attacks>
+	<attack type="melee" maxdamage="450" cycleticks="2000" probability="100"/>
+	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="3000" probability="80"/>
+	<attack type="instant" name="exevo flam hur" exhaustion="500" cycleticks="6000" probability="80"/>
+        <attack type="instant" name="exevo flam hur" exhaustion="500" cycleticks="12000" probability="80"/>
+	<attack type="rune" name="dlfbomb" exhaustion="500" cycleticks="7000" probability="70"/>
+	<attack type="instant" name="exura" exhaustion="500" cycleticks="2500" probability="70"/>
+</attacks>
+
+<defenses>
+	<defense immunity="energy"/>
+	<defense immunity="fire"/>
+	<defense immunity="poison"/>
+	<defense immunity="paralyze"/>
+	<defense immunity="drunk"/>
+<defense immunity="invis"/>
+</defenses>
+
+<voices><voice sentence="ZCHHHHHHHH"/><voice sentence="You will burn!"/></voices><loot><item id="2969" countmax="45" chance1="70000" chancemax="3000"/><item id="2969" countmax="98" chance1="70000" chancemax="3000"/><item id="3388" countmax="5" chance1="10000" chancemax="3000"/><item id="3521" countmax="4" chance1="30000" chancemax="3000"/><item id="3324" chance="1000"/><item id="3330" chance="1000"/><item id="2989" chance="5000"/><item id="2791" chance="7000"><inside><item id="3218" chance="50000"/><item id="3366" chance="50000"/></inside></item></loot></monster>
+

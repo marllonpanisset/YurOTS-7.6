@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Mister Perdigao" script="data/npc/scripts/Summon.lua" access="3" lookdir="1">
+	<health now="1000" max="1000"/>
+	<look type="137" head="113" body="120" legs="114" feet="132" corpse="4182"/>
+</npc>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+     <monster name="Orc" level="50" maglevel="10" experience="25" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="150">
+     	<health now="70" max="70"/>
+     	<look type="5" corpse="3936"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+     <attacks>
+     	<attack type="melee" maxdamage="25"/>
+     </attacks>
+     
+     <defenses>
+     
+     </defenses>
+     
+     <loot>
+      	<item id="2969" countmax="12" chance1="100000" chancemax="0"/>
+      	<item id="3515" countmax="2" chance1="33333" chancemax="0"/>
+      	<item id="3316" chance="10000"/>
+      	<item id="3312" chance="10000"/>
+      	<item id="3211" chance="10000"/>
+     
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3364" chance="10000"/>
+      	<item id="3212" chance="10000"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

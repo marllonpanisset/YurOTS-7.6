@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+     <monster name="Gargoyle" level="20" maglevel="30" experience="150" pushable="0" armor="45" defense="40" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+     	<health now="250" max="250"/>
+     	<look type="95" head="20" body="30" legs="40" feet="50" corpse="4138"/>
+     	<combat targetdistance="1" runonhealth="30"/>
+     <attacks>
+     	<attack type="melee" maxdamage="140"/>
+     
+     </attacks>
+     
+     <defenses>
+     
+     	<defense immunity="fire"/>
+     	<!-- <defense immunity="poison"/> -->
+     </defenses>
+     
+     <loot>
+      	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+      	<item id="3520" countmax="2" chance1="33333" chancemax="0"/>
+      	<item id="3515" countmax="3" chance1="33333" chancemax="0"/>
+      	<item id="0" chance="10000"/>
+     
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3321" chance="2500"/>
+      	<item id="2969" countmax="5" chance1="100000" chancemax="0"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

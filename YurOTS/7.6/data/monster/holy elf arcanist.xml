@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<monster name="Holy Elf Arcanist" level="50" maglevel="80" experience="2000" pushable="0" armor="30" defense="30" canpushitems="1" staticattack="50" changetarget="200" speed="600">
+	<health now="6000" max="6000"/>
+	<look type="63" head="20" body="30" legs="40" feet="50" corpse="2979"/>
+	<combat targetdistance="5" runonhealth="50"/>
+
+<attacks>
+	<attack type="rune" name="heavy magic missile" exhaustion="100" cycleticks="5000" probability="70"/>
+	<attack type="rune" name="heavy magic missile" exhaustion="100" cycleticks="2500" probability="40"/>
+	<attack type="rune" name="arca sudden death" exhaustion="100" cycleticks="7000" probability="85"/>
+	<attack type="rune" name="arca sudden death" exhaustion="100" cycleticks="3500" probability="35"/>
+	<attack type="instant" name="exura vita" exhaustion="100" cycleticks="4000" probability="70"/>
+	<attack type="distance" name="arrow" mindamage="100" maxdamage="300" probability="45"/>
+	<attack type="distance" name="arrow" mindamage="100" maxdamage="300" probability="90"/>
+</attacks>
+
+<defenses>
+	<defense immunity="invisible"/>
+	<defense immunity="fire"/>
+	<defense immunity="poison"/>
+	<defense immunity="energy"/>
+</defenses>
+
+<loot>
+ 	<item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+ 	<item id="1949" chance="10000"/>
+ 	<item id="2578" chance="5000"/>
+ 	<item id="2260" chance="4000"/>
+ 	<item id="2401" chance="3000"/>
+ 	<item id="2642" chance="20000"/>
+ 	<item id="2682" chance="6666"/>
+ 	<item id="2802" countmax="1" chance1="10000" chancemax="0"/>
+ 	<item id="2600" chance="33333"/>
+ 	<item id="2177" chance="2857"/>
+ 	<item id="2689" countmax="3" chance1="20000" chancemax="0"/>
+
+ 	<item id="1987" chance="100000">
+ 	<inside>
+ 	<item id="2652" chance="5000"/>
+	<item id="2544" countmax="10" chance1="20000" chancemax="0"/>
+ 	<item id="2456" chance="10000"/>
+ 	<item id="2032" chance="4000"/>
+ 	<item id="2062" chance="2857"/>
+ 	<item id="2125" chance="1818"/>
+ 	<item id="2154" chance="1333"/>
+ 	</inside>
+ 	</item>
+</loot>
+
+<summons maxSummons="2">
+ 	<summon name="Holy Elf Scout" chance="400"/>
+</summons>
+</monster>

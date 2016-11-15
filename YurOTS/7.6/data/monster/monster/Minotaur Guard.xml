@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+     <monster name="Minotaur Guard" level="20" maglevel="30" experience="160" pushable="0" armor="38" defense="35" canpushitems="1" staticattack="50" changetarget="200" speed="190">
+     	<health now="185" max="185"/>
+     	<look type="29" head="20" body="30" legs="40" feet="50" corpse="3992"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+     <attacks>
+     	<attack type="melee" maxdamage="150"/>
+
+     </attacks>
+
+     <defenses>
+
+     </defenses>
+
+     <loot>
+      	<item id="2969" countmax="20" chance1="100000" chancemax="0"/>
+      	<item id="3515" countmax="3" chance1="70000" chancemax="0"/>
+      	<item id="3213" chance="5000"/>
+      	<item id="3497" chance="10000"/>
+
+      	<item id="2791" chance="100000">
+      	<inside>
+      	<item id="3212" chance="6666"/>
+     	<item id="0" countmax="2" chance1="20000" chancemax="0"/>
+      	<item id="3421" chance="5000"/>
+      	<item id="3496" chance="5000"/>
+      	<item id="3290" chance="10000"/>
+      	<item id="3297" chance="2500"/>
+      	<item id="3351" chance="10000"/>
+      	</inside>
+      	</item>
+     </loot>
+     </monster>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Opalla" script="data/npc/scripts/orb.lua" access="3">
+<look type="128" head="4" body="114" legs="132" feet="115"/>
+</npc>

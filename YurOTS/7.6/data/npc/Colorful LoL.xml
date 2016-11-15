@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Colorful LoL" script="data/npc/scripts/ringa.lua" access="3" lookdir="2">
+	<mana now="500" max="500"/>
+	<health now="500" max="500"/>
+	<look type="57" head="50" body="50" legs="50" feet="50"/>
+</npc>
