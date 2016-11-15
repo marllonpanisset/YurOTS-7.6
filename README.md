@@ -1,2 +1,2 @@
 # Open Tibia Server
-Collection of Open Tibia Servers..
+Collection of Open Tibia Servers.
